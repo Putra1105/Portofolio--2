@@ -59,28 +59,36 @@ const Experience = () => {
                 <small className="text-light">Intermediate</small>
               </div>
             </article>
+
+            <article className="experience_details">
+              <BsPatchCheckFill className="experience_details-icon" />
+              <div>
+                <h4>Blade</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
+
+            <article className="experience_details">
+              <BsPatchCheckFill className="experience_details-icon" />
+              <div>
+                <h4>VueJS</h4>
+                <small className="text-light">Intermediate</small>
+              </div>
+            </article>
+
+            <article className="experience_details">
+              <BsPatchCheckFill className="experience_details-icon" />
+              <div>
+                <h4>AngularJS</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
           </div>
         </div>
         {/*================ END OF FRONTEND ====================*/}
         <div className="experience_backend">
           <h3>Backend Development</h3>
           <div className="experience_content">
-            <article className="experience_details">
-              <BsPatchCheckFill className="experience_details-icon" />
-              <div>
-                <h4>Node JS</h4>
-                <small className="text-light">Basic</small>
-              </div>
-            </article>
-
-            <article className="experience_details">
-              <BsPatchCheckFill className="experience_details-icon" />
-              <div>
-                <h4>Mongo DB</h4>
-                <small className="text-light">Basic</small>
-              </div>
-            </article>
-
             <article className="experience_details">
               <BsPatchCheckFill className="experience_details-icon" />
               <div>
@@ -102,6 +110,22 @@ const Experience = () => {
               <div>
                 <h4>Python</h4>
                 <small className="text-light">Intermediate</small>
+              </div>
+            </article>
+
+            <article className="experience_details">
+              <BsPatchCheckFill className="experience_details-icon" />
+              <div>
+                <h4>Laravel</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
+
+            <article className="experience_details">
+              <BsPatchCheckFill className="experience_details-icon" />
+              <div>
+                <h4>.Net Framework</h4>
+                <small className="text-light">Experienced</small>
               </div>
             </article>
           </div>

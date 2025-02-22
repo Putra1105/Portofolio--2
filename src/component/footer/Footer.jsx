@@ -22,13 +22,7 @@ const Footer = () => {
           <a href="#experience">Experience</a>
         </li>
         <li>
-          <a href="#services">Services</a>
-        </li>
-        <li>
           <a href="#portofolio">Portofolio</a>
-        </li>
-        <li>
-          <a href="#testimonials">Testimonials</a>
         </li>
         <li>
           <a href="#contact">Contact</a>
@@ -36,13 +30,13 @@ const Footer = () => {
       </ul>
 
       <div className="footer_socials">
-        <a href="https://facebook.com">
+        <a href="https://www.facebook.com/putra.rizky.9085">
           <ImFacebook />
         </a>
-        <a href="https://instagram.com">
+        <a href="https://www.instagram.com/putrarizkyrm/">
           <BsInstagram />
         </a>
-        <a href="https://twitter.com">
+        <a href="https://x.com/mnsiaaneh">
           <BsTwitter />
         </a>
       </div>

@@ -33,12 +33,12 @@ header {
   content: '';
   width: 1px;
   height: 2rem;
-  background: var(--color-primary);
+  background: var(--color-red);
 }
 
 /*=============== ME ================*/
 .me {
-  background: linear-gradient(var(--color-primary), transparent);
+  background: rgba(154, 9, 20, 255);
   width: 22rem;
   height: 30rem;
   position: absolute;
@@ -47,6 +47,11 @@ header {
   border-radius: 12rem 12rem 0 0;
   overflow: hidden;
   padding: 5rem 1.5rem 1.5rem 1.5rem;
+}
+.me-img {
+  position: absolute;
+  left: 0rem;
+  top: -2rem;
 }
 
 /*=============== SCROLL DOWN ================*/

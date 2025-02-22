@@ -1,6 +1,6 @@
 import React from 'react';
 import './about.css';
-import ME from '../../assets/me-about.jpg';
+import PUTRA from '../../assets/PasFotoPutra.png';
 import { FaAward } from 'react-icons/fa';
 import { FiUsers } from 'react-icons/fi';
 import { VscFolderActive } from 'react-icons/vsc';
@@ -14,7 +14,7 @@ const About = () => {
       <div className="container about_container">
         <div className="about_me">
           <div className="about_me-image">
-            <img src={ME} alt="Putra Rizky Ramadhan" />
+            <img src={PUTRA} alt="Putra Rizky Ramadhan" />
           </div>
         </div>
         <div className="about_content">
@@ -22,13 +22,13 @@ const About = () => {
             <article className="about_card">
               <FaAward className="about_icon" />
               <h5>Experience</h5>
-              <small>1+ Years Studying</small>
+              <small>6+ Month Work as Programmer</small>
             </article>
 
             <article className="about_card">
               <FiUsers className="about_icon" />
               <h5>Client</h5>
-              <small>10+ Worldwide</small>
+              <small>5+ Indonesian</small>
             </article>
 
             <article className="about_card">
@@ -38,7 +38,10 @@ const About = () => {
             </article>
           </div>
 
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil doloribus ex assumenda hic unde quae, qui itaque quidem nulla, excepturi officiis autem non sit expedita. Ipsum maxime quod aut ex.</p>
+          <p>
+            Saya adalah seorang fresh graduet dari sebuah SMK Negri di Surabaya dan saya lulusan dari jurusan Rekayasa Perangkat Lunak. Ketika saya sekolah saya memiliki berbagai pengalaman dalam web developer. Sekarang saya bekerja pada
+            suatu perusahaan IT Solution yaitu PT ITPI Technology yang berlokasi di Manyar, Surabaya sebagai Programmer.
+          </p>
 
           <a href="#contact" className="btn btn-primary">
             Let's Talk

@@ -41,16 +41,16 @@ const Contact = () => {
           <article className="contact_option">
             <SiInstagram className="contact_option-icon" />
             <h4>Instagram</h4>
-            <h5>putrarizkyr11</h5>
-            <a href="https://www.instagram.com/putrarizkyr11/" target="_blank">
+            <h5>putrarizkyrm</h5>
+            <a href="https://www.instagram.com/putrarizkyrm/" target="_blank">
               Send a message
             </a>
           </article>
           <article className="contact_option">
             <BsWhatsapp className="contact_option-icon" />
             <h4>Whatsapp</h4>
-            <h5>+1234567890</h5>
-            <a href="https://api.whatsapp.com/send?phone=1234567890" target="_blank">
+            <h5>+62 85156805404</h5>
+            <a href="https://api.whatsapp.com/send?phone=6285156805404" target="_blank">
               Send a message
             </a>
           </article>
